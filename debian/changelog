@@ -1,0 +1,121 @@
+ros-melodic-heron-description (0.3.3-1stretch) stretch; urgency=high
+
+  * Update ROS deps to remove/rename third-party packages that are not available on Melodic
+  * Related to https://github.com/heron/heron_simulator/pull/6.  Change the topic that the mag data is published to so we can translate it to the new message standard to work-around a bug with the imu filter.
+  * Contributors: Chris Iverach-Brereton
+
+ -- Mike Purvis <mpurvis@clearpathrobotics.com>  Thu, 17 Sep 2020 04:00:00 -0000
+
+ros-melodic-heron-description (0.3.2-1stretch) stretch; urgency=high
+
+  * Changed mesh declarations to use packages instead of xacro finds (#8 <https://github.com/heron/heron/issues/8>)
+  * Contributors: Dave Niewinski
+
+ -- Mike Purvis <mpurvis@clearpathrobotics.com>  Fri, 24 Jan 2020 05:00:00 -0000
+
+ros-melodic-heron-description (0.3.1-1stretch) stretch; urgency=high
+
+  * changed plugin names in xacro files. (#7 <https://github.com/heron/heron/issues/7>)
+  * Uploaded propeller.dae
+    * Put in some missing dependencies and upgraded package.xml to format 2.0
+    * Uploaded propeller model
+  * Put in some missing dependencies and upgraded package.xml to format 2.0 (#5 <https://github.com/heron/heron/issues/5>)
+  * Fixed Heron accessories glitch with custom namespaces
+  * Merge pull request #2 <https://github.com/heron/heron/issues/2> from Nirzvi1/kinetic-devel
+    Added heron_control, changed heron_description to use with uuv_simulator
+  * Removed heron_msgs dependency and added roslaunch back
+  * Fixing namespaces to allow for empty namespace
+  * Added simpler collision mesh
+  * Fixed spacing using Atom auto-indent
+  * Undoing package number changes
+  * Further implementing namespaces
+  * Renamed navsat/vel topic to allow Vec3->Twist translation
+  * Added envvars to change sensor locations and attached GPS info to separate sensor frame
+  * Made changes to allow the actual Heron robot to use heron_description
+  * Removed uuv_msgs dependencies (not actually needed)
+  * Changed simulated GPS topic to match the actual topic
+  * Additional updates so Gazebo sensor plugins would work with namespaces
+  * Re-added copyright notice in heron.urdf.xacro
+  * Switched UUV Sensor plugins to Gazebo plugins
+  * Updated version in package.xml
+  * Initial commit of new heron_description files
+  * Contributors: Guy Stoppi, Shreya Subramaniam, Tony Baltovski
+
+ -- Mike Purvis <mpurvis@clearpathrobotics.com>  Thu, 18 Apr 2019 04:00:00 -0000
+
+ros-melodic-heron-description (0.3.0-1stretch) stretch; urgency=high
+
+  * Updated gps and imu default locations for next version of heron
+  * Updated stls and xacro definitions for kinetic syntax changes
+  * Contributors: Dave Niewinski
+
+ -- Mike Purvis <mpurvis@clearpathrobotics.com>  Thu, 12 Apr 2018 04:00:00 -0000
+
+ros-melodic-heron-description (0.2.3-1stretch) stretch; urgency=high
+
+  * Added missing sonar link.
+  * Added Ceepulse sonar accessory.
+  * Contributors: Administrator, Tony Baltovski
+
+ -- Mike Purvis <mpurvis@clearpathrobotics.com>  Thu, 12 Apr 2018 04:00:00 -0000
+
+ros-melodic-heron-description (0.2.2-1stretch) stretch; urgency=high
+
+  * Updated the UM6 orientation.
+  * Added lms1xx as run dependency.
+  * Contributors: Tony Baltovski
+
+ -- Mike Purvis <mpurvis@clearpathrobotics.com>  Wed, 03 Aug 2016 04:00:00 -0000
+
+ros-melodic-heron-description (0.2.1-1stretch) stretch; urgency=high
+
+  * Updated meshes and added rear plate.
+  * Contributors: Tony Baltovski
+
+ -- Mike Purvis <mpurvis@clearpathrobotics.com>  Fri, 08 Jul 2016 04:00:00 -0000
+
+ros-melodic-heron-description (0.2.0-1stretch) stretch; urgency=high
+
+  * Updated the UM6 orientation.
+  * Added SICK lms1xx laser and Axis ptz camera to accessories.
+  * Added Power message.
+  * Added optional Novatel Smart6 GPS, updated Gazebo GPS plugin and made default environment variables more specific.
+  * Fixed IMU angle substitution.
+  * Updated URDF.
+  * Heron rename.
+  * Contributors: Tony Baltovski
+
+ -- Mike Purvis <mpurvis@clearpathrobotics.com>  Wed, 06 Jul 2016 04:00:00 -0000
+
+ros-melodic-heron-description (0.1.0-1stretch) stretch; urgency=high
+
+  * Add roslaunch file check to kingfisher_description.
+  * Contributors: Mike Purvis
+
+ -- Mike Purvis <mpurvis@clearpathrobotics.com>  Tue, 02 Dec 2014 05:00:00 -0000
+
+ros-melodic-heron-description (0.0.4-1stretch) stretch; urgency=high
+
+  * fix the launch arg name
+  * unnecessary xacro sonar xacro file
+  * adding sonar to a seperate urdf, and to description launch
+  * add gps to standard sensor suite
+  * Contributors: Yan Ma
+
+ -- Mike Purvis <mpurvis@clearpathrobotics.com>  Wed, 05 Mar 2014 05:00:00 -0000
+
+ros-melodic-heron-description (0.0.3-1stretch) stretch; urgency=high
+
+
+
+ -- Mike Purvis <mpurvis@clearpathrobotics.com>  Thu, 24 Oct 2013 04:00:00 -0000
+
+ros-melodic-heron-description (0.0.2-1stretch) stretch; urgency=high
+
+  * Fix model colours, retab base file.
+  * Basic catkinization of description package.
+  * Move kingfisher_description into subdirectory.
+
+ -- Mike Purvis <mpurvis@clearpathrobotics.com>  Tue, 15 Oct 2013 04:00:00 -0000
+
+
