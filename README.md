@@ -1,3 +1,29 @@
+## heron (melodic) - 0.3.3-1
+
+The packages in the `heron` repository were released into the `melodic` distro by running `/usr/bin/bloom-release -r melodic -t melodic heron` on `Thu, 17 Sep 2020 14:34:09 -0000`
+
+These packages were released:
+- `heron_control`
+- `heron_description`
+- `heron_msgs`
+
+Version of package(s) in repository `heron`:
+
+- upstream repository: https://github.com/heron/heron
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.3.3-1`
+
+Versions of tools used:
+
+- bloom version: `0.9.8`
+- catkin_pkg version: `0.4.22`
+- rosdep version: `0.19.0`
+- rosdistro version: `0.8.2`
+- vcstools version: `0.1.42`
+
+
 ## heron (kinetic) - 0.3.3-1
 
 The packages in the `heron` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release -r kinetic -t kinetic heron` on `Thu, 17 Sep 2020 14:19:19 -0000`
