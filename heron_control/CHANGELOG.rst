@@ -2,6 +2,9 @@
 Changelog for package heron_control
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.3.3 (2020-09-17)
+------------------
+
 0.3.2 (2020-01-24)
 ------------------
 * [heron_control] Fixing missing dep and minor clean-up.
